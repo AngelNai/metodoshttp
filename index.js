@@ -7,7 +7,9 @@ app.get('/',(request, response)=>{
 
 //http://localhost:3000/
 
-
+app.post('/',(request, response)=>{
+    response.send('hola get')
+})
 
 
 app.listen(3000,()=>{
