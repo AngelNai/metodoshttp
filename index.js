@@ -10,7 +10,15 @@ app.get('/',(request, response)=>{
 app.post('/',(request, response)=>{
     response.send('hola get')
 })
-
+app.put('/',(request, response)=>{
+    response.send('hola get')
+})
+app.patch('/',(request, response)=>{
+    response.send('hola get')
+})
+app.delete('/',(request, response)=>{
+    response.send('hola get')
+})
 
 app.listen(3000,()=>{
     console.log('listening on port 3000')
